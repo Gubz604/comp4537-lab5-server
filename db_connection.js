@@ -20,7 +20,6 @@ db.connect((err) => {
     db.query(sql, (err, result) => {
         if (err) throw err;
         console.log("Table patient ensured to exist or created\n");
-        console.log(result);
     });
 });
 

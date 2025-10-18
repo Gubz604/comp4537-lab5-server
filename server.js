@@ -15,9 +15,6 @@ const server = http.createServer((req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "*");
 
-
-    console.log(req.headers);
-
     // Serves the index.html file at the root endpoint
     if (req.method == 'GET' && req.url == endpointRoot) {
         const filePath = path.join(__dirname, 'index.html');
