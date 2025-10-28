@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Gubz604/comp4537-lab5#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "mysql": "^2.18.1",
     "mysql2": "^3.15.2",
     "nodemon": "^3.1.10"
